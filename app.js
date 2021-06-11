@@ -12,7 +12,9 @@ var products = require('./routes/products');
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://Alice:Moon1234@localhost/test')
+
+//db.createUser({ user:"test2", pwd:"test2", roles:[{role:"readWrite",db:"test2"}]})
+mongoose.connect('mongodb://test2:test2@localhost/test2')
   .then(() =>  console.log('connection succesful'))
   .catch((err) => console.error(err));
 

@@ -4,3 +4,5 @@
 
 ### Recordar ejecutar comando {npm install}
 
+## Ejecutar con comando {npm start}
+
